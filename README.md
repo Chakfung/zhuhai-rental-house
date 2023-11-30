@@ -29,7 +29,7 @@ In map visualization part, for api quota limitation just use latitude_longitude.
    use simulation.ipynb
 7. web simulation part:
     ```sh
-    cd web_simulation
+    cd simulation
     ```
     Installing front-end packages (dependent)
     ```sh
