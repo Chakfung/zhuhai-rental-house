@@ -25,9 +25,20 @@
    ```
 5. data analysis part run analyse.ipynb in the root directory(use venv).
 In map visualization part,
-6. simulation part
-    python version: simulation.ipynb
-    web version:
+6. python simulation part
+   use simulation.ipynb
+7. web simulation part:
     ```sh
     cd web_simulation
     ```
+    Installing front-end packages (dependent)
+    ```sh
+    yarn install
+    ```
+    run project
+    ```sh
+    yarn serve
+    ```
+    visit website
+
+    
