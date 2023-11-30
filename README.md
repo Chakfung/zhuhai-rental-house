@@ -24,7 +24,7 @@
    scrapy crawl zhuhai -o ../output.csv
    ```
 5. data analysis part run analyse.ipynb in the root directory(use venv).
-In map visualization part,
+In map visualization part, for api quota limitation just use latitude_longitude.csv directly
 6. python simulation part
    use simulation.ipynb
 7. web simulation part:
