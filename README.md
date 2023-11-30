@@ -39,6 +39,11 @@ In map visualization part, for api quota limitation just use latitude_longitude.
     ```sh
     yarn serve
     ```
-    visit website
+    visit website http://localhost:8000/
+
+### python version
+Python 3.11.2
+
+
 
     
