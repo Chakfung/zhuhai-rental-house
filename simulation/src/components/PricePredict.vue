@@ -56,39 +56,49 @@
             </el-form-item>
             <el-form-item label="Indoor Facilities">
               <el-checkbox-group v-model="form.indoorFacilities">
+                <span class="icon iconfont">&#xe725;</span>
                 <el-checkbox
                   label="Washing Machine"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont">&#xe724;</span>
                 <el-checkbox
                   label="Air Conditioner"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont">&#xea70;</span>
                 <el-checkbox
                   label="Wardrobe"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont">&#xe7fa;</span>
                 <el-checkbox
                   label="Television"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont">&#xe698;</span>
                 <el-checkbox
                   label="Refrigerator"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont water-heater">&#xe73f;</span>
                 <el-checkbox
                   label="Water Heater"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont">&#xeb66;</span>
                 <el-checkbox label="Bed" name="indoorFacilities"> </el-checkbox>
+                <span class="icon iconfont">&#xe608;</span>
                 <el-checkbox
                   label="Heating"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont">&#xe6a2;</span>
                 <el-checkbox
                   label="Broadband"
                   name="indoorFacilities"
                 ></el-checkbox>
+                <span class="icon iconfont">&#xe60e;</span>
                 <el-checkbox
                   label="Natural Gas"
                   name="indoorFacilities"
@@ -315,5 +325,10 @@ export default {
   border-radius: 20px;
   padding: 20px;
   background: rgba(101, 191, 191, 0.831);
+}
+.iconfont {
+  font-size: 24px;
+  font-weight: 400;
+  padding-right: 5px;
 }
 </style>

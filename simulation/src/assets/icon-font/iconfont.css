@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4354888 */
+  src: url('iconfont.woff2?t=1701419920915') format('woff2'),
+       url('iconfont.woff?t=1701419920915') format('woff'),
+       url('iconfont.ttf?t=1701419920915') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-refrigerator:before {
+  content: "\e698";
+}
+
+.icon-bed:before {
+  content: "\eb66";
+}
+
+.icon-meiqitianranqi:before {
+  content: "\e60e";
+}
+
+.icon-Television:before {
+  content: "\e7fa";
+}
+
+.icon-heating:before {
+  content: "\e608";
+}
+
+.icon-th_internet:before {
+  content: "\e6a2";
+}
+
+.icon-water-heater:before {
+  content: "\e73f";
+}
+
+.icon-011-air-conditioner:before {
+  content: "\e724";
+}
+
+.icon-025-washing-machine:before {
+  content: "\e725";
+}
+
+.icon-CUSTOM_WARDROBE:before {
+  content: "\ea70";
+}
+
