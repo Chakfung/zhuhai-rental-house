@@ -28,6 +28,7 @@ In map visualization part, for api quota limitation just use latitude_longitude.
 6. python simulation part
    use simulation.ipynb
 7. web simulation part:
+   i have deploy the project on server, you can visit http://8.134.104.62/
     ```sh
     cd web_simulation
     ```
