@@ -169,7 +169,6 @@ export default {
           message: "Please fill out the form.",
         });
       } else {
-        console.log(this.form.district);
         this.price = Math.floor(
           this.predictPrice(
             parseInt(this.form.area),
